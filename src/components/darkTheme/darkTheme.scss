@@ -1,0 +1,13 @@
+
+@import "./scss/variable";
+
+.App-header {
+    background-color: var(--color-background);
+    color:var(--color-foreground);;
+  }
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #1f2023;
+      color: #dadada;
+    }
+  }
